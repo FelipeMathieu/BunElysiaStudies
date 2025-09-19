@@ -14,7 +14,6 @@ ENV NODE_ENV=production
 
 RUN bun build \
 	--compile \
-    --minify \
 	--minify-whitespace \
 	--minify-syntax \
 	--outfile server \
